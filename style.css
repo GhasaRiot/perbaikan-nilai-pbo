@@ -1,0 +1,115 @@
+/* All */
+*{
+    margin:0;
+    padding:0;
+}
+/* All End */
+body{
+    background-color: black;
+}
+/* Navbar */
+.navbar{
+    background: none  ;
+    padding-bottom: 20px;
+}
+
+    
+.navbar li{
+margin-top: 13px;
+    position: relative;
+     margin-left: 25px;
+    list-style: none;
+    flex-direction: row;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color:white;
+    transition: 0.3s;
+}
+.navbar img{
+    margin-left: 70px;
+    width: 110px;
+    position: absolute;
+    top: 5px;
+}
+
+.navbar ul{
+position: relative;
+margin-left: 65%;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+/* Navbar End */
+
+/* Container */
+.container{
+    margin-top: 10%;
+}
+.container h1{
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-top: -20px;
+    font-size: 180%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container p {
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 15px; /* Menambahkan margin-bottom untuk memberikan jarak antar garis baru */
+    font-size: 15px;
+    text-align: left;
+    line-height: 160%; /* Mengubah koma menjadi titik untuk nilai persentase */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container img{
+    position: absolute;
+    left: 65%;
+    width: 29%;
+    margin-right: 400px;
+    display: flex;
+    margin-top: -150px;
+}
+.container2{
+    padding: 5%;
+    margin-top: 20%;
+    background: grey;
+    color: white;
+}
+.container2 p{
+    width: 95%;
+    margin-left: 3%;
+    color: white;
+}
+.container2 button{
+margin-left: 3%;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.container2 button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: white;
+    box-shadow: 0 0 0 5px black,
+    0 0 0 10 black,
+    0 0 0 15 black,
+    0 0 0 20 black;
+}
+/* Container End */
+

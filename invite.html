@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="invite.css">
+    <title>Judul halaman</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+          
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="invite.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </div>
+ 
+ <center>
+     <div class="container">
+        <h1>FOLLOW ME</h1>
+<button onclick="klik(this)" value="https://github.com/GhasaRiot">MY GITHUB</button>
+
+
+     </div>
+     <script>
+        function klik(link){
+            console.log(link.value);
+           // location.href = link.value;
+            window.open(link.value);
+        };
+     </script>
+ </center>
+</body>
+
+</html>
